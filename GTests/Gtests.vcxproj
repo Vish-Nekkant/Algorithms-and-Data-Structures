@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BST_Test.cpp" />
     <ClCompile Include="ListUnitTests.cpp" />
     <ClCompile Include="src\gtest-all.cc" />
     <ClCompile Include="src\gtest_main.cc" />
@@ -91,7 +92,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\ProjectsGit\DataStructuresAndAlgorithms\GTests\include\;C:\ProjectsGit\DataStructuresAndAlgorithms\GTests;C:\ProjectsGit\DataStructuresAndAlgorithms\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include\;..\GTests;..\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -100,7 +101,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\ProjectsGit\DataStructuresAndAlgorithms\GTests\include\;C:\ProjectsGit\DataStructuresAndAlgorithms\GTests;C:\ProjectsGit\DataStructuresAndAlgorithms\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include\;..\GTests;..\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -111,7 +112,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\ProjectsGit\DataStructuresAndAlgorithms\GTests\include\;C:\ProjectsGit\DataStructuresAndAlgorithms\GTests;C:\ProjectsGit\DataStructuresAndAlgorithms\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include\;..\GTests;..\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
@@ -126,7 +127,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\ProjectsGit\DataStructuresAndAlgorithms\GTests\include\;C:\ProjectsGit\DataStructuresAndAlgorithms\GTests;C:\ProjectsGit\DataStructuresAndAlgorithms\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include\;..\GTests;..\DataStructures\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>

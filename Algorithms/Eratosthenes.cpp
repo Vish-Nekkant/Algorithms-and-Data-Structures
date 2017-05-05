@@ -47,7 +47,7 @@ namespace Alg
     }
 }
 
-#if 1
+#if 0
 int main()
 {
     Alg::Eratosthenes(100);

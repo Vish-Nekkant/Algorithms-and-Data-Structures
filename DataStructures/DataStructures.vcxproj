@@ -114,6 +114,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Include/BST.hpp" />
     <ClInclude Include="Include/StackADT.h" />
     <ClInclude Include="Include/List.hpp" />
   </ItemGroup>
